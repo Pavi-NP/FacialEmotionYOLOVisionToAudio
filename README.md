@@ -12,7 +12,21 @@ This project demonstrates how to detect people in an image using the YOLOv8 obje
 - Analyze facial emotions using DeepFace
 - Generate and play a descriptive audio summary
 
----
+
+### Display the image
+<img width="401" height="397" alt="Screenshot 2025-09-12 at 10 58 53 pm" src="https://github.com/user-attachments/assets/42d5b5a6-e5e1-485a-8fb4-768e6c3d4efe" />
+
+### Result as an audio 
+
+0: 608x640 9 persons, 230.1ms
+Speed: 8.2ms preprocess, 230.1ms inference, 3.6ms postprocess per image at shape (1, 3, 608, 640)
+
+I detected 9 persons. Facial expressions include: 3 angry, 2 neutral, 2 surprise, 1 happy, 1 sad
+
+Playing audio...
+
+[download.mp3](https://github.com/user-attachments/files/22298585/download.mp3)
+
 ### License
 This project is for educational purposes. Feel free to modify and extend!
 
@@ -29,3 +43,4 @@ Run this cell in Colab to install necessary libraries:
 
 ```python
 !pip install ultralytics deepface gtts opencv-python-headless numpy matplotlib
+---

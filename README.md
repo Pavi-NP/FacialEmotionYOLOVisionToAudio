@@ -16,6 +16,7 @@ This project demonstrates how to detect people in an image using the YOLOv8 obje
 ### Display the image
 <img width="401" height="397" alt="Screenshot 2025-09-12 at 10 58 53 pm" src="https://github.com/user-attachments/assets/42d5b5a6-e5e1-485a-8fb4-768e6c3d4efe" />
 
+image credit: https://stock.adobe.com/search?k=multiple+face+emotions&asset_id=618892328
 ### Result as an audio 
 
 0: 608x640 9 persons, 230.1ms
